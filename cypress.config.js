@@ -1,7 +1,7 @@
-
 const { defineConfig } = require('cypress');
 
 module.exports = defineConfig({
+    projectId: "95motk", // Correct location for the projectId
     e2e: {
         baseUrl: "http://localhost:3000",
         viewportWidth: 1280,
@@ -12,10 +12,9 @@ module.exports = defineConfig({
             output: "stdout"
         },
         setupNodeEvents(on, config) {
-            // implement node event listeners here
+            // Implement node event listeners here
         },
-        supportFile: false, // Set supportFile to false
-        projectId: "95motk" // Add your project id here
+        supportFile: false // Set supportFile to false if not using it
     }
 });
 

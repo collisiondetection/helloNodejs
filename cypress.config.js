@@ -15,7 +15,7 @@ module.exports = defineConfig({
             // implement node event listeners here
         },
         supportFile: false, // Set supportFile to false
-        projectId: "4767717c-0df6-497c-921b-09db1937980" // Add your project id here
+        projectId: "95motk" // Add your project id here
     }
 });
 
